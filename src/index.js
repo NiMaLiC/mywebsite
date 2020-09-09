@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+
+let name = "Nimali";
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App name={name} />
   </React.StrictMode>,
   document.getElementById('root')
 );
