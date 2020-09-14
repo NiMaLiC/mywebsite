@@ -5,12 +5,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 
-let name = "Nimali";
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App name={name} />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <App />,document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
